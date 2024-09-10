@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Websites</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img id="logo-img" src="" alt="Logo">
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="paste-btn">Paste Image</button>
+            <button id="set-logo-btn" style="display: none;">Set as Logo</button> 
+        </div>
+
+        <h1>My Favorite Websites</h1>
+
+        <div class="input-section">
+            <input type="text" id="website-name" placeholder="Website Name">
+            <input type="text" id="image-link" placeholder="Image Link">
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <button id="submit-btn">Submit</button>
+            <button id="refresh-btn">Refresh Suggestions</button>
+        </div>
+
+        <div class="suggestions">
+        </div>
+
+        <div class="website-grid" id="website-list">
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
